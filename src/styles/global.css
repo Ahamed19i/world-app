@@ -1,0 +1,11 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-content {
+    padding-bottom: 60px; /* Ajuste cette valeur en fonction de la hauteur de ton footer */
+  }
+  
