@@ -1,27 +1,26 @@
-
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route 
           path='/'
-          element = {<Home/>}
+          element={<Home/>}
         /> 
         <Route 
           path='/about'
-          element = {<About/>}
+          element={<About/>}
         />  
         <Route 
           path='*'
-          element = {<Home/>}
+          element={<Home/>}
         /> 
       </Routes> 
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
